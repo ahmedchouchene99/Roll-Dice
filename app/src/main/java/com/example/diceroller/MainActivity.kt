@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
         // Update the ImageView with the correct drawable resource ID
         diceImage.setImageResource(drawableResource)
 
-        // Update the content description
+        // Update the content descriptionn
         diceImage.contentDescription = diceRoll.toString()
     }
 }
